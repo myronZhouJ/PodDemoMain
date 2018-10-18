@@ -1,0 +1,43 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - PodDemoA (0.0.1):
+    - AFNetworking (~> 3.0)
+  - PodDemoB (0.0.2):
+    - TransitionKit (~> 2.0)
+  - TransitionKit (2.2.1)
+
+DEPENDENCIES:
+  - PodDemoA
+  - PodDemoB
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - TransitionKit
+  https://github.com/myronZhouJ/repoDemo.git:
+    - PodDemoA
+    - PodDemoB
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  PodDemoA: 2b1db5ddf265ab962c2a48e9efa4cd24925dd866
+  PodDemoB: 7abb3d6373210c751c5e685cdd825903a2caa3cc
+  TransitionKit: 9ceccda4cd0cdc0a05ef85eb235e5a3292c3c250
+
+PODFILE CHECKSUM: 6a4b8d93dfc841d979ab13d99b5eec9caf2b333b
+
+COCOAPODS: 1.5.3
